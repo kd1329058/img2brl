@@ -1,0 +1,26 @@
+#output {
+  font: normal 9px monospace;
+  white-space: nowrap;
+  line-height: 1em;
+  letter-spacing: -0.2em;
+}
+
+body.bg-black {
+  background-color: black;
+  color: white;
+}
+
+body.bg-white {
+  background-color: white;
+  color: black;
+}
+
+.bg-black > #output {
+  background-color: black;
+  color: white;
+}
+
+.bg-white > #output {
+  background-color: white;
+  color: black;
+}
